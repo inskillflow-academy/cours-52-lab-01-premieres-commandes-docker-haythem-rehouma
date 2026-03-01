@@ -1,0 +1,64 @@
+{
+  "tests": [
+    {
+      "name": "Partie 1 — Hello World",
+      "setup": "",
+      "run": "bash tests/test_reponses.sh 2>&1 | grep -q '\\[PASS\\] Section .Partie 1'",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 10
+    },
+    {
+      "name": "Partie 2 — Gestion d'images",
+      "setup": "",
+      "run": "bash tests/test_reponses.sh 2>&1 | grep -q '\\[PASS\\] Section .Partie 2'",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 15
+    },
+    {
+      "name": "Partie 3 — Lancer et gérer des conteneurs",
+      "setup": "",
+      "run": "bash tests/test_reponses.sh 2>&1 | grep -q '\\[PASS\\] Section .Partie 3'",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 25
+    },
+    {
+      "name": "Partie 4 — Mode interactif",
+      "setup": "",
+      "run": "bash tests/test_reponses.sh 2>&1 | grep -q '\\[PASS\\] Section .Partie 4'",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 20
+    },
+    {
+      "name": "Partie 5 — Nettoyage",
+      "setup": "",
+      "run": "bash tests/test_reponses.sh 2>&1 | grep -q '\\[PASS\\] Section .Partie 5'",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 15
+    },
+    {
+      "name": "Partie 6 — Questions de réflexion",
+      "setup": "",
+      "run": "bash tests/test_reponses.sh 2>&1 | grep -q '\\[PASS\\] Section .Partie 6'",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 15
+    }
+  ]
+}
